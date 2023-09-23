@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false, // 不需要显示的声明any
+    "target": "es5", //编译后的目标javascript的版本
+    "lib": [
+      "dom", //document. cetElementById(“root”)
+      "dom.iterable",
+      "esnext"
+    ], // 编译需要的库文件
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext", // 配置代码的模块系统
+    "moduleResolution": "node", // 编译器的工作方式
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src"
+  ]
+}
